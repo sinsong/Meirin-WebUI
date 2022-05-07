@@ -1,0 +1,33 @@
+// 变量
+
+$primary: #6495ed;
+$dark: #1c2128;
+
+// 网页内容
+
+$body-bg: #1c2128;
+$body-color: #adbac7;
+
+// 链接
+
+$link-color: #6495ed;
+$link-hover-color: #fff;
+
+// 段落
+
+$paragraph-margin-bottom: 0.5rem;
+
+// 分页
+
+$pagination-bg: $dark;
+$pagination-disabled-bg: #545d68;
+$pagination-hover-bg: lighten($pagination-bg, 10%);
+$pagination-focus-bg: lighten($pagination-bg, 10%);
+
+// 表单
+
+$input-border-color: #444c56;
+$input-disabled-bg: #545d68;
+$form-select-disabled-bg: #545d68;
+
+@import 'bootstrap/scss/bootstrap.scss';
