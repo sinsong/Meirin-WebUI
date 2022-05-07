@@ -102,7 +102,7 @@ function generatePagination(currentPage, lastPage) {
       </button>
     </li>
 
-    <li v-for="page in generatePagination(curpage, maxpage)" class="page-item" :class="{active: curpage === page}">
+    <li v-for="page in generatePagination(curpage, maxpage)" :key="page" class="page-item" :class="{active: curpage === page}">
       <button @click="loadData(page)" class="page-link">{{page}}</button>
     </li>
 

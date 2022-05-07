@@ -108,7 +108,7 @@ function createMe() {
       <div class="col-sm-10">
         <!-- <input  type="text" id="effect" class="form-control"> -->
         <select v-model="policy.effect" id="effect" class="form-select" :disabled="disabled">
-          <option v-once v-for="effect in policy_effect">{{effect}}</option>
+          <option v-once v-for="effect in policy_effect" :key="effect">{{effect}}</option>
         </select>
       </div>
     </div>

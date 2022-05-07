@@ -100,7 +100,7 @@ function createMe() {
       <label for="mode" class="col-sm-2 col-form-label">匹配模式</label>
       <div class="col-sm-10">
         <select id="mode" class="form-select" v-model="metapolicy.mode" :disabled="disabled">
-          <option v-once v-for="mode in metapolicy_mode">{{mode}}</option>
+          <option v-once v-for="mode in metapolicy_mode" :key="mode">{{mode}}</option>
         </select>
       </div>
     </div>
