@@ -21,7 +21,7 @@
       <router-link class="nav-link" to="/dsl" exact-active-class="active">DSL 测试</router-link>
     </li>
     <li>
-      <router-link class="nav-link" to="/request">请求测试</router-link>
+      <router-link class="nav-link" to="/request" exact-active-class="active">请求测试</router-link>
     </li>
   </ul>
 
@@ -29,6 +29,6 @@
 
   <!-- for active background -->
   <div class="nav-pills">
-      <router-link class="nav-link" to="/setting" exact-active-class="active">管理凭证</router-link>
+      <router-link class="nav-link" to="/setting" exact-active-class="active">管理凭据</router-link>
   </div>
 </template>
