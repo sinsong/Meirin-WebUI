@@ -64,7 +64,7 @@ function textareaKeydown(event) {
     <!-- 请求表单 -->
     <form class="col-md-6 my-3">
       <div class="mb-3">
-        <label for="name" class="form-label">匹配表达式</label>
+        <label for="name" class="form-label">测试请求对象</label>
         <textarea ref="request_textarea" @keydown="textareaKeydown" v-model="acrequest" id="match" rows="12"
           class="form-control font-monospace"></textarea>
       </div>
